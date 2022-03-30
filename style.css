@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.header {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 35px 25px 35px 25px;
+    width: auto;
+    text-align: center;
+    width: 500px;
+    display: flex;
+    align-content: space-between;
+    flex-flow: column wrap;
+    
+}
+
+.inputone {
+    width: 80%;
+    padding: 10px 20px;
+    margin: 10px;
+    margin-right: 20px;
+    border-style: solid;
+    border-radius: 5px;
+    color: var(--light-dark);
+    background-color: var(--light);
+    
+}
+
+.inputtwo {
+    width: 80%;
+    padding: 10px 20px;
+    margin: 10px;
+    margin-right: 20px;
+    border-style: solid;
+    border-radius: 5px;
+    color: var(--light-dark);
+    background-color: var(--light);
+}
+
+#result {
+    width: 80%;
+    padding: 10px 20px;
+    margin: 10px;
+    margin-right: 20px;
+    border-style: solid;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.numbers {
+    padding: 10px 22px;
+    border-style: solid;
+    border-radius: 5px;
+    color: var(--deep-dark);
+    background-color: var(--light);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+    transition: color .3s, background-color .3s;
+    display: flex;
+    align-content: flex-start;
+    flex-flow: column wrap;
+}
+
+#buttonPlus {
+    padding: 10px 22px;
+    border-style: solid;
+    border-radius: 5px;
+    color: var(--deep-dark);
+    background-color: var(--light);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+    transition: color .3s, background-color .3s;
+    
+}
+
+#buttonMinus {
+    padding: 10px 22px;
+    border-style: solid;
+    border-radius: 5px;
+    color: var(--deep-dark);
+    background-color: var(--light);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+    transition: color .3s, background-color .3s;
+    
+}
+
+#buttonDzielenie {
+    padding: 10px 22px;
+    border-style: solid;
+    border-radius: 5px;
+    color: var(--deep-dark);
+    background-color: var(--light);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+    transition: color .3s, background-color .3s;
+    
+}
+
+#buttonMnozenie {
+    padding: 10px 22px;
+    border-style: solid;
+    border-radius: 5px;
+    color: var(--deep-dark);
+    background-color: var(--light);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+    transition: color .3s, background-color .3s;
+    
+}
+
+#remove {
+    padding: 10px 22px;
+    border-style: solid;
+    border-radius: 5px;
+    color: var(--deep-dark);
+    background-color: var(--light);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+    transition: color .3s, background-color .3s;
+
+}
+    
+#sum {
+        padding: 10px 22px;
+        border-style: solid;
+        border-radius: 5px;
+        color: var(--deep-dark);
+        background-color: var(--light);
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: large;
+        cursor: pointer;
+        transition: color .3s, background-color .3s;
+        display: flex;
+    
+}

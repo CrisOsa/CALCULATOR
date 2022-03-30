@@ -1,0 +1,10 @@
+
+       {
+    "editor.bracketPairColorization.enabled": true,
+    "workbench.colorCustomizations": {
+      "editorBracketHighlight.foreground1": "#ffd700",
+      "editorBracketHighlight.foreground2": "#ff00ff",
+      "editorBracketHighlight.foreground3": "#00bfff",
+      "editorBracketHighlight.foreground4": "#7cfc00",
+      "editorBracketHighlight.unexpectedBracket.foreground": "#ff0000"
+    }
